@@ -1,0 +1,119 @@
+
+body{
+    margin: 1%;
+    /* padding: 1%; */
+}
+.header{
+    width: 100%;
+    background-color:#ece9e9;
+    /* position: fixed; */
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.country{
+    width: 20%;
+    height: 50px;
+    font-size: large;
+    vertical-align: middle;
+    margin-right: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+}
+.search{
+    width: 50%;
+    height: 50px;
+    font-size: large;
+    vertical-align: middle;
+    margin-right: 30px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+}
+
+.login{
+    margin-right: 20px;
+    color: #000000;
+    font-size: large;
+}
+
+.sell{
+    border: 5px solid #ffd900;
+    border-radius: 30px;
+    border-top-color: #01fdf0;
+    border-right-color: #0151fd;
+    width: 7%;
+    height: 40px;
+    font-size: x-large;
+    vertical-align: middle;
+}
+
+nav{
+    border: 1px solid #dfdcdc;
+    background-color: #fdf9f9;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 2%;
+}
+/* slider start */
+.slider{
+text-align: center;
+margin: 20px;
+}
+/* slider end */
+/* card conatiner start */
+.card{
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+    max-height: 200px;
+}
+.cardContent{
+    margin-left: 20px;
+}
+
+footer{
+    border: 2px solid #000000;
+    background-color: #dfdcdc;
+}
+
+.links{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+}
+
+.download{
+    width: 50px;
+    height: 30px;
+}
